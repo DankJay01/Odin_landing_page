@@ -11,15 +11,17 @@ body {
 
 .hero-section {
     background-color: #1f2937;
-    padding: 8px 20px 60px 20px;
+    padding: 8px 15px 100px 15px;
     color: white;
 }
 
 .header {
     display: flex;
     margin-bottom: 80px;
-    justify-content: space-around;
-    align-items: center;
+    margin-left: 153px;
+    justify-content: space-between;
+    flex-shrink: 1;
+
 }
 
 h3 {
@@ -29,8 +31,9 @@ h3 {
 
 .nav-links {
     display: flex;
-    justify-content: space-between;
     gap: 15px;
+    margin-right: 155px;
+    flex-shrink: 1;
 }
 
 
@@ -44,6 +47,7 @@ h3 {
 
 .header-content {
     display: flex;
+    justify-content: space-evenly;
 
 }
 
@@ -68,12 +72,45 @@ h3 {
 .test-div {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 410px;
     gap: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 40px;
 }
 
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 30px 0 30px 0;
+}
+
+.content-imgs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
 
 a {
     text-decoration: none;
